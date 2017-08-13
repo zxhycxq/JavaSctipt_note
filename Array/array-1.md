@@ -86,18 +86,34 @@ copyWithin 就像 C 和 C++ 的 memcpy 函数一样，且它是用来移动 Arra
 `Array.prototype.pop()`
 删除数组的最后一个元素，并返回这个元素。
 
+在一个空数组上调用 pop()，它返回  undefined。
+
 `Array.prototype.push()`
 在数组的末尾增加一个或多个元素，并返回数组的新长度。
+唯一的原生类数组（array-like）对象是 Strings，尽管如此，它们并不适用该方法，因为字符串是不可改变的。
 
 `Array.prototype.reverse()`
 颠倒数组中元素的排列顺序，即原先的第一个变为最后一个，原先的最后一个变为第一个。
-
+//乾坤颠倒
+```ecmascript 6
+    
+```
 `Array.prototype.shift()`
 删除数组的第一个元素，并返回这个元素。
+shift 方法并不局限于数组：这个方法能够通过 call 或 apply 方法作用于类似数组的对象上。但是对于没有 length 属性（从0开始的一系列连续的数字属性的最后一个）的对象，调用该方法可能没有任何意义。
+
 `Array.prototype.sort()`
 对数组元素进行排序，并返回当前数组。
+  在适当的位置对数组的元素进行排序，并返回数组。 sort 排序不一定是稳定的。默认排序顺序是根据字符串Unicode码点。
+  ```ecmascript 6
+    function compareNumbers(a, b) {
+      return a - b;      //将数组升序排列
+    }
+```
 `Array.prototype.splice()`
 在任意的位置给数组添加或删除任意个元素。
+array.splice(start, deleteCount, item1, item2, ...)  //离婚、再婚，
+
 `Array.prototype.unshift()`
 在数组的开头增加一个或多个元素，并返回数组的新长度。
 
@@ -133,14 +149,31 @@ concat 方法将创建一个新的数组，然后将调用它的对象(this 指�
             
 `Array.prototype.slice()`
 抽取当前数组中的一段元素组合成一个新数组。
-
+slice 方法可以用来将一个类数组（Array-like）对象/集合转换成一个数组
+```ecmascript 6
+    function list() {
+      return Array.prototype.slice.call(arguments);       //[].slice.call(arguments) 
+    }
+    
+    var list1 = list(1, 2, 3); // [1, 2, 3]
+    
+    var unboundSlice = Array.prototype.slice;
+    var slice = Function.prototype.call.bind(unboundSlice);
+    
+    function list() {
+      return slice(arguments);
+    }
+    
+    var list1 = list(1, 2, 3); // [1, 2, 3]
+```
 `Array.prototype.toSource()` 
 返回一个表示当前数组字面量的字符串。遮蔽了原型链上的 Object.prototype.toSource() 方法。
 
 `Array.prototype.toString()`
 返回一个由所有数组元素组合而成的字符串。遮蔽了原型链上的 Object.prototype.toString() 方法。
-
-
+Array 对象覆盖了 Object 的 toString 方法。对于数组对象，toString 方法返回一个字符串，
+该字符串由数组中的每个元素的 toString() 返回值经调用 join() 方法连接（由逗号隔开）组成。
+当一个数组被作为文本值或者进行字符串连接操作时，将会自动调用其 toString 方法
 `Array.prototype.toLocaleString()`
 返回一个由所有数组元素组合而成的本地化后的字符串。遮蔽了原型链上的 Object.prototype.toLocaleString() 方法。
 
@@ -279,11 +312,47 @@ Array.prototype.map.call(str, function(x) {
 ```
 `Array.prototype.reduce()`
 从左到右为每个数组元素执行一次回调函数，并把上次回调函数的返回值放在一个暂存器中传给下次回调函数，并返回最后一次回调函数的返回值。
+accumulator 初始值（或者上一次回调函数的返回值）
+currentValue 当前元素值
+currentIndex 当前索引
+array 调用 reduce 的数组。
+不提供 initialValue ，reduce 会从索引1的地方开始执行 callback 方法，跳过第一个索引。提供 initialValue ，从索引0开始。
+ ```ecmascript 6
+   [0, 1, 2, 3, 4].reduce(function(accumulator, currentValue, currentIndex, array){
+     return accumulator + currentValue;
+   });
+
+//将二维数组转化为一维
+var flattened = [[0, 1], [2, 3], [4, 5]].reduce(
+  function(a, b) {
+    return a.concat(b);
+  },
+  []
+);
+// flattened is [0, 1, 2, 3, 4, 5]
+// 计算数组中每个元素出现的次数
+var names = ['Alice', 'Bob', 'Tiff', 'Bruce', 'Alice'];
+
+var countedNames = names.reduce(function (allNames, name) { 
+  if (name in allNames) {
+    allNames[name]++;
+  }
+  else {
+    allNames[name] = 1;
+  }
+  return allNames;
+}, {});
+// countedNames is:
+// { 'Alice': 2, 'Bob': 1, 'Tiff': 1, 'Bruce': 1 }
+```
+ []
 
 `Array.prototype.reduceRight()`
 从右到左为每个数组元素执行一次回调函数，并把上次回调函数的返回值放在一个暂存器中传给下次回调函数，并返回最后一次回调函数的返回值。
 `Array.prototype.values()` 
 返回一个数组迭代器对象，该迭代器会包含所有数组元素的值。
+
+
 `Array.prototype[@@iterator]()` 
 和上面的 values() 方法是同一个函数。
 ####求和
