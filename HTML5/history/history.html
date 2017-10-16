@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content=""/>
+  <meta name="description" content=""/>
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+  <title>Title</title>
+  <script src="//cdn.bootcss.com/jquery/1.12.0/jquery.min.js"></script>
+</head>
+<body>
+<button class="btn" style="margin: 100px;">35选择7</button>
+<div class="show"></div>
+</body>
+<script>
+  var obj=[];
+  $ (".btn").click (function () {
+    var number = randomNum (15, 7);
+    $ (".show").html(number);
+
+    var ord=Math.random();
+    obj[ord]=number;
+    window.location.hash=ord;
+  })
+  window.onhashchange=function () {
+    var number=obj[window.location.hash.substring(1)]||'';
+    $ (".show").html(number);
+  }
+  
+  function randomNum(alls, now) {
+    var arr = [];
+    var newArr=[];
+    for (var i = 1; i <= alls; i++) {
+      arr.push (i);
+    }
+
+    for(var i=0;i<now;i++){
+      newArr.push(arr.splice(Math.floor(Math.random()*arr.length),1));
+    }
+    console.log(newArr);
+    return newArr;
+  }
+
+    /*
+    *
+    onhashchange
+
+    history
+      pushState 数据、标题、地址
+      popstate 读取数据 event.state
+      网址是虚假的，需要在服务器指定对应页面，否则刷新找不到页面
+    *
+    * */
+</script>
+</html>
