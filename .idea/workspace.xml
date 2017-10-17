@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48e8cece-acf8-4480-8076-7c06a690eb4f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/history/history-state.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5/history/history.html" />
+    <list default="true" id="48e8cece-acf8-4480-8076-7c06a690eb4f" name="Default" comment="继承、组件化开发">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop/拖拽/tuozhuai.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop/拖拽/tuozhuai2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop/拖拽/类式继承.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,8 +25,8 @@
       <file leaf-file-name="history.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML5/history/history.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            <state relative-caret-position="217">
+              <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -39,17 +38,85 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="history-state.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="history-state.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML5/history/history-state.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+            <state relative-caret-position="372">
+              <caret line="42" column="9" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#script#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#626#742#0" expanded="true" />
                 <element signature="e#780#849#0" expanded="true" />
+                <element signature="e#885#1158#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tuozhuai.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oop/拖拽/tuozhuai.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="76" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#819#921#0" expanded="true" />
+                <element signature="e#953#1041#0" expanded="true" />
+                <element signature="e#1079#1420#0" expanded="true" />
+                <element signature="e#1143#1416#0" expanded="true" />
+                <element signature="e#1247#1319#0" expanded="true" />
+                <element signature="e#1359#1390#0" expanded="true" />
+                <element signature="e#1462#1566#0" expanded="true" />
+                <element signature="e#1607#1725#0" expanded="true" />
+                <element signature="e#1762#1831#0" expanded="true" />
+                <element signature="e#1859#1890#0" expanded="true" />
+                <element signature="e#1971#2042#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tuozhuai2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oop/拖拽/tuozhuai2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#819#926#0" expanded="true" />
+                <element signature="e#958#1046#0" expanded="true" />
+                <element signature="e#1086#1427#0" expanded="true" />
+                <element signature="e#1150#1423#0" expanded="true" />
+                <element signature="e#1254#1326#0" expanded="true" />
+                <element signature="e#1366#1397#0" expanded="true" />
+                <element signature="e#1469#1573#0" expanded="true" />
+                <element signature="e#1614#1732#0" expanded="true" />
+                <element signature="e#1769#1838#0" expanded="true" />
+                <element signature="e#1866#1897#0" expanded="true" />
+                <element signature="e#1993#2331#0" expanded="true" />
+                <element signature="e#2363#2434#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="类式继承.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/oop/拖拽/类式继承.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#493#521#0" expanded="true" />
+                <element signature="e#542#552#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,6 +170,9 @@
         <option value="$PROJECT_DIR$/js3Book/5.md" />
         <option value="$PROJECT_DIR$/HTML5/history/history.html" />
         <option value="$PROJECT_DIR$/HTML5/history/history-state.html" />
+        <option value="$PROJECT_DIR$/oop/拖拽/tuozhuai.html" />
+        <option value="$PROJECT_DIR$/oop/拖拽/tuozhuai2.html" />
+        <option value="$PROJECT_DIR$/oop/拖拽/类式继承.html" />
       </list>
     </option>
   </component>
@@ -142,7 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -154,23 +223,24 @@
             <path>
               <item name="JavaSctipt_note" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaSctipt_note" type="462c0819:PsiDirectoryNode" />
-              <item name="HTML5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSctipt_note" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSctipt_note" type="462c0819:PsiDirectoryNode" />
-              <item name="HTML5" type="462c0819:PsiDirectoryNode" />
-              <item name="history" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSctipt_note" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSctipt_note" type="462c0819:PsiDirectoryNode" />
               <item name="js3Book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaSctipt_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaSctipt_note" type="462c0819:PsiDirectoryNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaSctipt_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaSctipt_note" type="462c0819:PsiDirectoryNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="拖拽" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,6 +262,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mybook\JavaSctipt_note\JavaSctipt_note\oop\拖拽" />
       <recent name="D:\mybook\JavaSctipt_note\JavaSctipt_note\HTML5\history" />
     </key>
   </component>
@@ -295,7 +366,8 @@
       <workItem from="1503370553152" duration="106000" />
       <workItem from="1506985807675" duration="1809000" />
       <workItem from="1507628831358" duration="35000" />
-      <workItem from="1508156911722" duration="2746000" />
+      <workItem from="1508156911722" duration="3367000" />
+      <workItem from="1508243752024" duration="4023000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1496908321364</created>
@@ -353,19 +425,27 @@
       <option name="project" value="LOCAL" />
       <updated>1507628852904</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="html5 history">
+      <created>1508159673234</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1508159673234</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40732000" />
+    <option name="totallyTimeSpent" value="45376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="29" width="1938" height="1060" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11469345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11469345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3489933" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10738255" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10738255" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37824675" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -374,7 +454,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="ReactNative" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -417,13 +496,45 @@
     <MESSAGE value="数组方法 mdn" />
     <MESSAGE value="第五章" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="html5 history" />
+    <MESSAGE value="继承、组件化开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="继承、组件化开发" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/HTML5/history/history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#794#888#0" expanded="true" />
+            <element signature="e#924#1180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5/history/history-state.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#script#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#626#742#0" expanded="true" />
+            <element signature="e#780#849#0" expanded="true" />
+            <element signature="e#885#1158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js3Book/5.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -494,8 +605,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML5/history/history.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="217">
+          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -508,14 +619,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML5/history/history-state.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+        <state relative-caret-position="372">
+          <caret line="42" column="9" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#script#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#626#742#0" expanded="true" />
             <element signature="e#780#849#0" expanded="true" />
+            <element signature="e#885#1158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/拖拽/tuozhuai.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#819#921#0" expanded="true" />
+            <element signature="e#953#1041#0" expanded="true" />
+            <element signature="e#1079#1420#0" expanded="true" />
+            <element signature="e#1143#1416#0" expanded="true" />
+            <element signature="e#1247#1319#0" expanded="true" />
+            <element signature="e#1359#1390#0" expanded="true" />
+            <element signature="e#1462#1566#0" expanded="true" />
+            <element signature="e#1607#1725#0" expanded="true" />
+            <element signature="e#1762#1831#0" expanded="true" />
+            <element signature="e#1859#1890#0" expanded="true" />
+            <element signature="e#1971#2042#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/拖拽/tuozhuai2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#819#926#0" expanded="true" />
+            <element signature="e#958#1046#0" expanded="true" />
+            <element signature="e#1086#1427#0" expanded="true" />
+            <element signature="e#1150#1423#0" expanded="true" />
+            <element signature="e#1254#1326#0" expanded="true" />
+            <element signature="e#1366#1397#0" expanded="true" />
+            <element signature="e#1469#1573#0" expanded="true" />
+            <element signature="e#1614#1732#0" expanded="true" />
+            <element signature="e#1769#1838#0" expanded="true" />
+            <element signature="e#1866#1897#0" expanded="true" />
+            <element signature="e#1993#2331#0" expanded="true" />
+            <element signature="e#2363#2434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/拖拽/类式继承.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#493#521#0" expanded="true" />
+            <element signature="e#542#552#0" expanded="true" />
           </folding>
         </state>
       </provider>
