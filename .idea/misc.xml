@@ -82,6 +82,9 @@
     <option wsh="false" />
     <option yui="false" />
   </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
   <component name="JsBowerSettings">
     <exe-path />
     <config-path />
@@ -162,9 +165,6 @@
         </expanded-state>
       </profile-state>
     </entry>
-  </component>
-  <component name="SvnConfiguration">
-    <configuration useDefault="false">D:\Program Files\TortoiseSVN\bin</configuration>
   </component>
   <component name="VagrantProjectSettings">
     <option name="instanceFolder" value="" />
