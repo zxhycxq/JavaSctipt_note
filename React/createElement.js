@@ -1,7 +1,7 @@
 function createElement(type, props, ...childrens) {
   return {
     type: type,
-    props: {
+    props: { 
       ...props,
       childred: childrens.legnth <= 1 ? children[0] : childrens
     }
